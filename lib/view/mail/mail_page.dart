@@ -38,8 +38,8 @@ class _MailPageState extends State<MailPage> {
               color: Colors.orangeAccent,
                 child:const Text("Send Mail"),
                 onPressed: () async {
-                  // await MailRepo().sendMail();
-                  await MailRepo().getFruit();
+                  await MailRepo().sendMail();
+                  // await MailRepo().getFruit();
                 })
           ],
         ),
